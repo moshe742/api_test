@@ -3,7 +3,10 @@ import datetime
 import pytest
 from pytest_mock import MockerFixture
 
-from open_weather_api.fetch_weather import get_city_forecast, ForecastType
+from open_weather_api.fetch_weather import (
+    get_city_forecast,
+    ForecastType,
+)
 
 
 class OpenWeatherResponseRainy:
