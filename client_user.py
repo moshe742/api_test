@@ -1,7 +1,6 @@
 from open_weather_api.fetch_weather import (
     ForecastType,
     get_city_forecast,
-    Units,
 )
 
 
